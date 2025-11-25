@@ -902,3 +902,20 @@ a.text-link:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
 }
+
+/* Ensure proper image rendering in cards */
+.h-48 {
+    height: 12rem !important
+}
+
+.h-full {
+    height: 100% !important
+}
+
+.object-cover {
+    object-fit: cover !important
+}
+
+.w-full {
+    width: 100% !important
+}
