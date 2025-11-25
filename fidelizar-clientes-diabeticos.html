@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Como fidelizar clientes diabéticos com restrições na confeitaria.">
     <title>Confeitaria Inclusiva: Como Fidelizar Clientes que Não Podem Comer Açúcar</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <script>
         tailwind.config = {
             theme: {
@@ -33,17 +36,66 @@
     </script>
 
     <style>
-        body { font-feature-settings: "kern", "liga"; -webkit-font-smoothing: antialiased; }
-        .prose-custom p { margin-bottom: 1.5em; line-height: 1.8; color: #5D4E3E; }
-        .prose-custom h2 { font-family: 'Playfair Display', serif; color: #4B3621; margin-top: 2.5em; margin-bottom: 0.8em; font-size: 1.75rem; }
-        .prose-custom h3 { font-family: 'Playfair Display', serif; color: #4B3621; margin-top: 2em; margin-bottom: 0.6em; font-size: 1.4rem; }
-        .prose-custom ul { margin-bottom: 1.5em; list-style-type: disc; padding-left: 1.5em; }
-        .prose-custom li { margin-bottom: 0.5em; color: #5D4E3E; }
-        .highlight-box { background-color: #FDF6F3; border-left: 4px solid #DCAE96; padding: 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
-        a.text-link { color: #C0856B; text-decoration: underline; text-underline-offset: 4px; transition: color 0.2s; font-weight: 600; }
-        a.text-link:hover { color: #8F5E48; }
+        body {
+            font-feature-settings: "kern", "liga";
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .prose-custom p {
+            margin-bottom: 1.5em;
+            line-height: 1.8;
+            color: #5D4E3E;
+        }
+
+        .prose-custom h2 {
+            font-family: 'Playfair Display', serif;
+            color: #4B3621;
+            margin-top: 2.5em;
+            margin-bottom: 0.8em;
+            font-size: 1.75rem;
+        }
+
+        .prose-custom h3 {
+            font-family: 'Playfair Display', serif;
+            color: #4B3621;
+            margin-top: 2em;
+            margin-bottom: 0.6em;
+            font-size: 1.4rem;
+        }
+
+        .prose-custom ul {
+            margin-bottom: 1.5em;
+            list-style-type: disc;
+            padding-left: 1.5em;
+        }
+
+        .prose-custom li {
+            margin-bottom: 0.5em;
+            color: #5D4E3E;
+        }
+
+        .highlight-box {
+            background-color: #FDF6F3;
+            border-left: 4px solid #DCAE96;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        a.text-link {
+            color: #C0856B;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            transition: color 0.2s;
+            font-weight: 600;
+        }
+
+        a.text-link:hover {
+            color: #8F5E48;
+        }
     </style>
 </head>
+
 <body class="bg-brand-bg text-brand-text font-sans selection:bg-brand-accent selection:text-white">
 
     <header class="w-full py-8 border-b border-stone-200 bg-white/50 backdrop-blur-sm sticky top-0 z-50">
@@ -54,8 +106,10 @@
             <nav class="hidden sm:block">
                 <ul class="flex space-x-6 text-sm uppercase tracking-widest text-stone-500 font-bold">
                     <li class="hover:text-brand-accent cursor-pointer transition"><a href="index.html">Início</a></li>
-                    <li class="hover:text-brand-accent cursor-pointer transition"><a href="sobre.html"></a>Sobre</a></li>
-                    <li class="hover:text-brand-accent cursor-pointer transition"><a href="contato.html"></a>Contato</a></li>
+                    <li class="hover:text-brand-accent cursor-pointer transition"><a href="sobre.html"></a>Sobre</a>
+                    </li>
+                    <li class="hover:text-brand-accent cursor-pointer transition"><a href="contato.html"></a>Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -63,64 +117,84 @@
 
     <main class="max-w-3xl mx-auto px-6 py-12 sm:py-20">
         <article>
-    <header class="mb-10 text-center">
-        <span class="inline-block py-1 px-3 rounded-full bg-stone-200 text-stone-600 text-xs font-bold tracking-wider uppercase mb-4">Confeitaria Saudável</span>
-        <h1 class="text-4xl sm:text-5xl font-serif font-medium leading-tight mb-6 text-brand-text">
-            Confeitaria Inclusiva: Como Fidelizar Clientes que Não Podem Comer Açúcar
-        </h1>
-        <p class="text-xl text-stone-500 font-light italic">
-            Um mercado de alta fidelidade, baixa concorrência e margens de lucro superiores.
-        </p>
-        <div class="w-full h-64 sm:h-96 bg-stone-300 rounded-lg mt-8 overflow-hidden relative">
-            <div class="absolute inset-0 flex items-center justify-center text-stone-500">
-                <img src="img/fidelizar-clientes-diabeticos.png" alt="Foto de Doces sem açucar" >
+            <header class="mb-10 text-center">
+                <span
+                    class="inline-block py-1 px-3 rounded-full bg-stone-200 text-stone-600 text-xs font-bold tracking-wider uppercase mb-4">Confeitaria
+                    Saudável</span>
+                <h1 class="text-4xl sm:text-5xl font-serif font-medium leading-tight mb-6 text-brand-text">
+                    Confeitaria Inclusiva: Como Fidelizar Clientes que Não Podem Comer Açúcar
+                </h1>
+                <p class="text-xl text-stone-500 font-light italic">
+                    Um mercado de alta fidelidade, baixa concorrência e margens de lucro superiores.
+                </p>
+                <div class="w-full h-64 sm:h-96 bg-stone-300 rounded-lg mt-8 overflow-hidden relative">
+                    <div class="absolute inset-0 flex items-center justify-center text-stone-500">
+                        <img src="img/fidelizar-clientes-diabeticos.png" alt="Foto de Doces sem açucar">
+                    </div>
+                </div>
+            </header>
+
+            <div class="prose-custom text-lg">
+                <p>
+                    Quando pensamos em vender doces, logo imaginamos leite condensado e açúcar refinado. Mas existe um
+                    "oceano azul" na confeitaria que é frequentemente ignorado: o público com restrições alimentares.
+                </p>
+                <p>
+                    Diabéticos, pessoas com intolerância à lactose ou praticantes de dietas Low Carb (cetogênica) sofrem
+                    de uma dor real: a dificuldade de encontrar uma sobremesa que seja, ao mesmo tempo, segura para sua
+                    saúde e <em>realmente</em> gostosa.
+                </p>
+
+                <h2>O Mito da "Comida de Hospital"</h2>
+                <p>
+                    A maior barreira desse nicho é o preconceito. Muitos bolos fit são secos, sem graça ou têm aquele
+                    gosto residual forte de adoçante ruim. Quem conseguir quebrar essa barreira e entregar um bolo úmido
+                    e saboroso, ganha um cliente fiel para a vida toda.
+                </p>
+                <p>
+                    Diferente do cliente de "Bolo de Cenoura" que pode comprar em qualquer esquina, o cliente Low Carb
+                    não tem muitas opções. Quando ele encontra você, ele não discute preço, ele agradece.
+                </p>
+
+                <div class="highlight-box">
+                    <h4 class="font-serif font-bold text-xl mb-2">Estratégia de Venda</h4>
+                    <p class="mb-0 text-base">Use o gatilho da inclusão. Venda kits para festas de família com a frase:
+                        "Para ninguém ficar de fora na hora do parabéns". Isso conecta emocionalmente com quem costuma
+                        apenas olhar os outros comerem.</p>
+                </div>
+
+                <h2>O Desafio Técnico: Substituição de Ingredientes</h2>
+                <p>
+                    Na confeitaria tradicional, o açúcar não serve apenas para adoçar; ele traz umidade e estrutura. A
+                    farinha de trigo traz o glúten, que dá elasticidade. Quando tiramos os dois, o risco do bolo virar
+                    um "tijolo" é alto.
+                </p>
+                <p>
+                    Substituir por farinha de amêndoas ou coco exige um balanceamento preciso de líquidos e gorduras.
+                    Tentar adaptar receitas tradicionais "de cabeça" geralmente resulta em desperdício de ingredientes
+                    caros (farinha de amêndoas não é barata!).
+                </p>
+                <p>
+                    Para quem quer entrar nesse mercado com segurança profissional, a Chef Isis Alvarez desenvolveu um
+                    método específico focado em textura. O curso de <a href="https://go.hotmart.com/E101632405O?ap=d21a"
+                        class="text-link" target="_blank" rel="nofollow noopener">Bolos Caseiros Low Carb e Zero
+                        Açúcar</a> ensina exatamente como manter a umidade sem usar trigo ou açúcar.
+                </p>
+                <p>
+                    O material cobre desde o clássico bolo de chocolate até versões de maçã e banana, garantindo que
+                    sejam seguros para diabéticos (evitando picos de glicose) e intolerantes à lactose. É o tipo de
+                    conhecimento técnico que te coloca em um patamar acima da concorrência comum.
+                </p>
             </div>
-        </div>
-    </header>
 
-    <div class="prose-custom text-lg">
-        <p>
-            Quando pensamos em vender doces, logo imaginamos leite condensado e açúcar refinado. Mas existe um "oceano azul" na confeitaria que é frequentemente ignorado: o público com restrições alimentares.
-        </p>
-        <p>
-            Diabéticos, pessoas com intolerância à lactose ou praticantes de dietas Low Carb (cetogênica) sofrem de uma dor real: a dificuldade de encontrar uma sobremesa que seja, ao mesmo tempo, segura para sua saúde e <em>realmente</em> gostosa.
-        </p>
-
-        <h2>O Mito da "Comida de Hospital"</h2>
-        <p>
-            A maior barreira desse nicho é o preconceito. Muitos bolos fit são secos, sem graça ou têm aquele gosto residual forte de adoçante ruim. Quem conseguir quebrar essa barreira e entregar um bolo úmido e saboroso, ganha um cliente fiel para a vida toda.
-        </p>
-        <p>
-            Diferente do cliente de "Bolo de Cenoura" que pode comprar em qualquer esquina, o cliente Low Carb não tem muitas opções. Quando ele encontra você, ele não discute preço, ele agradece.
-        </p>
-
-        <div class="highlight-box">
-            <h4 class="font-serif font-bold text-xl mb-2">Estratégia de Venda</h4>
-            <p class="mb-0 text-base">Use o gatilho da inclusão. Venda kits para festas de família com a frase: "Para ninguém ficar de fora na hora do parabéns". Isso conecta emocionalmente com quem costuma apenas olhar os outros comerem.</p>
-        </div>
-
-        <h2>O Desafio Técnico: Substituição de Ingredientes</h2>
-        <p>
-            Na confeitaria tradicional, o açúcar não serve apenas para adoçar; ele traz umidade e estrutura. A farinha de trigo traz o glúten, que dá elasticidade. Quando tiramos os dois, o risco do bolo virar um "tijolo" é alto.
-        </p>
-        <p>
-            Substituir por farinha de amêndoas ou coco exige um balanceamento preciso de líquidos e gorduras. Tentar adaptar receitas tradicionais "de cabeça" geralmente resulta em desperdício de ingredientes caros (farinha de amêndoas não é barata!).
-        </p>
-        <p>
-            Para quem quer entrar nesse mercado com segurança profissional, a Chef Isis Alvarez desenvolveu um método específico focado em textura. O curso de <a href="https://go.hotmart.com/E101632405O" class="text-link" target="_blank" rel="nofollow noopener">Bolos Caseiros Low Carb e Zero Açúcar</a> ensina exatamente como manter a umidade sem usar trigo ou açúcar.
-        </p>
-        <p>
-            O material cobre desde o clássico bolo de chocolate até versões de maçã e banana, garantindo que sejam seguros para diabéticos (evitando picos de glicose) e intolerantes à lactose. É o tipo de conhecimento técnico que te coloca em um patamar acima da concorrência comum.
-        </p>
-    </div>
-
-    <div class="mt-16 pt-8 border-t border-stone-200 text-center">
-        <p class="text-stone-500 mb-6 font-serif italic text-lg">Quer atender esse público exclusivo?</p>
-        <a href="https://go.hotmart.com/E101632405O" target="_blank" rel="nofollow noopener" class="inline-block bg-brand-accent hover:bg-brand-accent-hover text-white font-bold py-4 px-8 rounded shadow-md transition transform hover:-translate-y-1">
-            Ver Curso de Bolos Saudáveis (R$ 39,90)
-        </a>
-    </div>
-</article>
+            <div class="mt-16 pt-8 border-t border-stone-200 text-center">
+                <p class="text-stone-500 mb-6 font-serif italic text-lg">Quer atender esse público exclusivo?</p>
+                <a href="https://go.hotmart.com/E101632405O?ap=d21a" target="_blank" rel="nofollow noopener"
+                    class="inline-block bg-brand-accent hover:bg-brand-accent-hover text-white font-bold py-4 px-8 rounded shadow-md transition transform hover:-translate-y-1">
+                    Ver Curso de Bolos Saudáveis (R$ 39,90)
+                </a>
+            </div>
+        </article>
     </main>
 
     <footer class="bg-white py-12 border-t border-stone-200 mt-12">
@@ -131,6 +205,5 @@
     </footer>
 
 </body>
+
 </html>
-
-
